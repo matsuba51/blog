@@ -1,0 +1,65 @@
+@charset "UTF-8";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 共通のナビゲーションスタイル */
+.nav-link {
+    @apply text-white hover:bg-gray-700 px-4 py-2 rounded-md;
+}
+
+/* モバイルメニューの初期状態 */
+#mobile-menu {
+    transform: translateX(100%); /* 初期状態でメニューは画面外（右側）に配置 */
+    transition: transform 0.3s ease-in-out; /* スライドイン/アウトのアニメーション */
+}
+
+#mobile-menu.translate-x-0 {
+    transform: translateX(0); /* メニューが表示される状態（右からスライドイン） */
+}
+
+
+/* 新規投稿ページのフォームスタイル */
+.form-group {
+    @apply mb-6;
+}
+
+label {
+    @apply block text-sm font-medium text-white;
+}
+
+input,
+textarea {
+    @apply w-full p-4 bg-gray-700 text-white rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500;
+}
+
+/* エラーメッセージ */
+.alert {
+    @apply bg-red-500 text-white p-4 rounded-md;
+}
+
+/* 共通ボタンスタイル */
+.btn-primary {
+    @apply bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 transition;
+}
+
+.btn-secondary {
+    @apply bg-gray-500 text-white px-4 py-2 rounded-md hover:bg-gray-600 transition;
+}
+
+.btn-info {
+    @apply bg-blue-400 text-white px-3 py-1 rounded-md hover:bg-blue-500 transition;
+}
+
+.btn-edit {
+    @apply bg-yellow-500 text-white px-3 py-1 rounded-md hover:bg-yellow-600 transition;
+}
+
+.btn-delete {
+    @apply bg-red-500 text-white px-3 py-1 rounded-md hover:bg-red-600 transition;
+}
+
+.hidden {
+    display: none;
+}

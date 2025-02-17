@@ -1,0 +1,16 @@
+# ローカル開発環境の依存ファイル
+node_modules/
+vendor/
+
+# ローカル設定ファイル
+.env
+*.env
+
+# バージョン管理関連
+.git/
+.gitignore
+
+# テストデータやバックアップファイル
+*.log
+*.bak
+*.swp

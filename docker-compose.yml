@@ -1,0 +1,45 @@
+services:
+    laravel.test:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        ports:
+            - '8078:80'
+        volumes:
+            - '.:/var/www/html'
+            - './public:/var/www/html/public'
+            - './resources:/var/www/html/resources'
+        networks:
+            - sail
+        environment:
+            - WWWGROUP=1000
+            - WWWUSER=1000
+        depends_on:
+            - mysql
+    mysql:
+        image: 'mysql:8.0'
+        environment:
+            MYSQL_ROOT_PASSWORD: rootpassword
+            MYSQL_DATABASE: laravel
+        volumes:
+            - 'sail-mysql:/var/lib/mysql'
+        networks:
+            - sail
+        restart: always
+    phpmyadmin:
+        image: phpmyadmin/phpmyadmin
+        ports:
+            - '8080:80'
+        environment:
+            PMA_HOST: mysql
+            PMA_PORT: 3306
+        depends_on:
+            - mysql
+        networks:
+            - sail
+volumes:
+    sail-mysql:
+        driver: local
+networks:
+    sail:
+        driver: bridge
