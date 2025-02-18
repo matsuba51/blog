@@ -8,15 +8,20 @@ WORKDIR /var/www/html
 RUN ln -snf /usr/share/zoneinfo/UTC /etc/localtime && echo "UTC" > /etc/timezone
 
 # 必要なパッケージをインストール
-RUN apt-get update && apt-get upgrade -y
+RUN apt-get update && apt-get install -y \
+    software-properties-common \
+    curl \
+    php8.3-cli \
+    php8.3-fpm \
+    php8.3-mysql \
+    php8.3-mbstring \
+    php8.3-xml \
+    php8.3-curl \
+    php8.3-bcmath
 
 # PHP をインストールするための準備
-RUN apt-get install -y software-properties-common curl && \
-    add-apt-repository -y ppa:ondrej/php && \
+RUN add-apt-repository -y ppa:ondrej/php && \
     apt-get update
-
-# PHP 8.3 と必要な拡張をインストール
-RUN apt-get install -y php8.3-cli php8.3-fpm php8.3-mysql php8.3-mbstring php8.3-xml php8.3-curl php8.3-bcmath
 
 # Composer をインストール
 RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
