@@ -1,0 +1,3 @@
+#!/bin/sh
+unset NODE_OPTIONS
+ELECTRON_RUN_AS_NODE=1 "/private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual Studio Code 2.app/Contents/Frameworks/Code Helper (Plugin).app/Contents/MacOS/Code Helper (Plugin)" "/Users/matsubakouichi/Documents/Projects/blog-app/~/.vscode-root/User/globalStorage/github.copilot-chat/debugCommand/copilotDebugCommand.js" "vscode://github.copilot-chat" "" "$@"

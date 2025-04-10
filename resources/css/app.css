@@ -1,0 +1,84 @@
+/* Google Fontsのインポート */
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;700&display=swap');
+
+/* Tailwind CSS */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 通常のスタイル */
+
+/* 一般的なスタイル */
+body {
+  background-color: darkgrey;
+}
+
+#top {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+
+.control {
+  margin: 0 0 5% 3%;
+}
+
+.search {
+  text-align: center;
+}
+
+/* レスポンシブデザイン */
+@media (min-width: 1024px) {
+
+  #top {
+    display: inline-block;
+    width: 70%;
+    text-align: end;
+  }
+
+  .blog {
+    margin-right: 5%;
+    padding-right: 17%;
+  }
+
+  .control {
+    margin: 0 0 2% 3%;
+  }
+
+  .look {
+      max-width: 900px;
+      margin: 0 auto; 
+  }
+
+  .grid {
+      justify-content: center; 
+  }
+}
+
+/* 管理者関連 */
+.admin {
+  margin-top: 10%;
+}
+
+/* チャート関連 */
+.chart-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+@media (max-width: 768px) {
+  .chart-container {
+      width: 100%;
+      padding: 0 10px;  /* モバイル向けに少し余白を調整 */
+  }
+}
+
+
+.charts {
+  margin-top: 7%;
+}
+
+.share {
+  margin-top: 7%;
+}
+

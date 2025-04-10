@@ -1,0 +1,82 @@
+2025-02-16 15:15:01.531 [info] Using the Electron fetcher.
+2025-02-16 15:15:01.531 [info] Initializing Git extension service.
+2025-02-16 15:15:01.531 [info] Successfully activated the vscode.git extension.
+2025-02-16 15:15:01.531 [info] Enablement state of the vscode.git extension: true.
+2025-02-16 15:15:01.531 [info] Successfully registered Git commit message provider.
+2025-02-16 15:15:02.961 [warning] GitHub login failed
+2025-02-16 15:15:02.962 [info] copilot token chat_enabled: undefined, sku: 
+2025-02-16 15:15:03.373 [warning] GitHub login failed
+2025-02-16 15:15:03.375 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at u5.waitForChatEnabled (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:5388)
+    at u5.run (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:5107)
+    at py.askToUpgradeAuthPermissions (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:4545): Failed to get copilot token
+2025-02-16 15:15:03.375 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-02-16 15:15:03.375 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-16 15:15:03.375 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at Object.o [as task] (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:640)
+    at Xd._processQueue (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056)
+2025-02-16 15:15:03.375 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-16 15:15:03.375 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at t (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2370)
+    at Oy._registerEmbeddings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2869)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at Xh.waitForActivationBlockers (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:433:1956)
+    at /Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:2358:4903
+    at Uhr (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:2358:4716)
+    at aw.n (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:4447)
+    at aw.m (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:4410)
+    at aw.l (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3866)
+2025-02-16 15:15:03.375 [info] activationBlocker from 'languageModelAccess' took for 11ms
+2025-02-16 15:15:40.986 [info] Using the Electron fetcher.
+2025-02-16 15:15:40.986 [info] Initializing Git extension service.
+2025-02-16 15:15:41.116 [info] Successfully activated the vscode.git extension.
+2025-02-16 15:15:41.116 [info] Enablement state of the vscode.git extension: true.
+2025-02-16 15:15:41.116 [info] Successfully registered Git commit message provider.
+2025-02-16 15:15:41.122 [warning] GitHub login failed
+2025-02-16 15:15:41.123 [info] copilot token chat_enabled: undefined, sku: 
+2025-02-16 15:15:41.390 [warning] GitHub login failed
+2025-02-16 15:15:41.392 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at u5.waitForChatEnabled (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:5388)
+    at u5.run (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:5107)
+    at py.askToUpgradeAuthPermissions (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:545:4545): Failed to get copilot token
+2025-02-16 15:15:41.392 [error] You are not signed in to GitHub. Please sign in to use Copilot.
+2025-02-16 15:15:41.392 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-16 15:15:41.392 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at Object.o [as task] (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:640)
+    at Xd._processQueue (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:587:1056)
+2025-02-16 15:15:41.392 [warning] [LanguageModelAccess] LanguageModel/Embeddings are not available without auth token
+2025-02-16 15:15:41.392 [error] Error: GitHubLoginFailed
+    at By._authShowWarnings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:3909)
+    at By.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:547:2438)
+    at dO.getCopilotToken (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:435:10521)
+    at Oy._getAuthSession (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2907)
+    at t (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2370)
+    at Oy._registerEmbeddings (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:588:2869)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at Xh.waitForActivationBlockers (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:433:1956)
+    at /Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:2358:4903
+    at Uhr (/Users/matsubakouichi/.vscode/extensions/github.copilot-chat-0.24.1/dist/extension.js:2358:4716)
+    at aw.n (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:4447)
+    at aw.m (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:4410)
+    at aw.l (file:///private/var/folders/k6/4_bbt1zj7ynbyqbjkmjx8h340000gn/T/AppTranslocation/3CEB0326-09BD-4185-B2ED-E49C03B50732/d/Visual%20Studio%20Code%202.app/Contents/Resources/app/out/vs/workbench/api/node/extensionHostProcess.js:112:3866)
+2025-02-16 15:15:41.392 [info] activationBlocker from 'languageModelAccess' took for 11ms
