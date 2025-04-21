@@ -1,0 +1,10 @@
+/vendor
+/node_modules
+.env
+/tests
+*.log
+.DS_Store
+*.md
+.git
+.gitignore
+.dockerignor
